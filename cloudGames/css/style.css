@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #071436;
+}
+
+header {
+    background-color:#0055a4;
+    height: 170px;
+}
+
+.container_grid {
+    width: 1820px;
+    margin: 0 auto;
+}
+
+.posicionamento_header {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    width: 1333px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: 'Roboto', sans-serif; 
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+}
+
+.container_menu {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.destaques {
+    background-image: url(../images/Destaques.png);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 31px;
+}
+
+.itens_destaques {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.destaques_lancamentos {
+    width: 495px;
+    text-align: center;
+    margin: 10px;
+}
