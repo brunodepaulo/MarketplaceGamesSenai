@@ -1,5 +1,5 @@
 # MarketplaceGamesSenai
-Modelo de Marketplace de Venda Jogos - Curso Full Stack SENAI/SP
+****Modelo de Marketplace de Venda Jogos - Curso Full Stack SENAI/SP****
 
 Template via Figma https://www.figma.com/file/CYK5uMQVoTb195KfleWmOj/Cloud-Games?node-id=18%3A417 e código em desenvolvimento via versões no Github.
 
