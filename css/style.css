@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #071436;
+}
+
+header {
+    background-color:#0055a4;
+    height: 170px;
+}
+
+.container_grid {
+    width: 1820px;
+    margin: 0 auto;
+}
+
+.posicionamento_header {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* .menu {
+    width: 1333px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: 'Roboto', sans-serif; 
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+} */
+
+.container_menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container_menu img {
+    padding: 5px;
+}
+
+.logo {
+    display: flex;
+    width: 325px;
+}
+
+.entrar_market {
+    display: flex;
+    align-items: center;
+}
+
+.barras {
+    width: 30px;
+    display: none;
+}
+
+.destaques {
+    background-image: url(../images/Destaques.png);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 31px;
+}
+
+.itens_destaques {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.destaques_lancamentos {
+    display: flex;
+    text-align: center;
+    margin-left: 150px;
+    flex-direction: column;
+    justify-content: end;
+    font-family: 'Roboto', sans-serif;
+}
+
+.texto_ofertas_especiais {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.texto_ofertas_especiais h2 {
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.texto_ofertas_especiais p {
+    color: white;
+    font-size: 20px;
+    font-weight: lighter;
+    margin-top: 0px;
+}
+
+.texto_ofertas_especiais a {
+    background-color: #0055A4;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.ofertas_especiais {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1575px;
+    height: 100%;
+    align-items: center; 
+}
+
+.ofertas_especiais_2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.banner_pago {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    max-width: 1400px;
+}
+
+/* Preciso acertar o menu para gerar responsividade */
+
+@media screen and (max-width: 1920px) {
+    .container_grid {
+        width: 95%;
+    }
+
+    .container_menu img {
+        width: 100%;
+        padding: 5px;
+    }
+
+    .menu a {
+        font-size: 16px;
+    }
+
+    .logo {
+        width: 100%;
+    }
+
+    .entrar_market img {
+        width: 100%;
+        padding-left: 25px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .barras {
+        display: inline-block;
+    }
+    
+    .container_menu {
+        display: none;
+        flex-direction: column;
+        width: 250px;
+        height: 300px;
+        position: absolute;
+        top: 130px;
+        left: 0px;
+        align-items: flex-start;
+        background-color: #0055A4;
+        border-radius: 5px;
+        padding: 10px;
+    }
+    
+    .logo {
+        align-items: center;
+    }
+
+    .posicionamento_header {
+        position: relative;
+    }
+}

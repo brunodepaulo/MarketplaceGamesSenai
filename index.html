@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cloud Games - O seu Mundo dos Games!</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body onload="renderizarOfertas()">
+    <header>
+        <div class="container_grid posicionamento_header">
+        <!-- Colocar carousel do bootstrap https://getbootstrap.com/docs/4.0/components/carousel/ -->
+            <a href="#" onclick="mostrarmenu()"><img class="barras" src="./images/bars-solid.svg" alt=""></a>
+            <a href="#"><img class="logo" src="./images/Logo1.svg" alt="Logo Site Cloud Games"></a>
+                <nav id="menu" class="container_menu">
+                    <a href="#"><img src="./images/Menu_Promoções.png" alt=""></a>
+                    <a href="#"><img src="./images/Menu_PC.png" alt=""></a>
+                    <a href="#"><img src="./images/Menu_Consoles.png" alt=""></a>
+                    <a href="#"><img src="./images/Menu_Mobile.png" alt=""></a>
+                    <a href="#"><img src="./images/Menu_Suporte.png" alt=""></a>
+                <!-- Terei que na proxima versao fazer um campo de busca --> 
+                    <a href="#"><img src="./images/Menu_Busca.png" alt=""></a> 
+                <!-- terei que alinhar para ficar proporcional ao menu  -->
+                </nav>
+                <div class="entrar_market"> 
+                    <a href="#"><img src="./images/Entrar.png" alt=""></a>
+                    <a href="#"><img src="./images/Carrinho.png" alt=""></a>
+                </div>
+        </div>
+    </header>
+    <div class="destaques itens_destaques">
+        <div class="destaques_lancamentos">
+            <h1>Lançamentos</h1>
+            <p>R$ 249,90</p>
+        </div>
+    </div>
+    <section class="secao_ofertas_especiais">
+        <div class="texto_ofertas_especiais container">
+            <h2>Ofertas Especiais</h2>
+            <p>Jogos com até 70% de desconto!</p>
+            <div>
+                <a href="#">ver mais</a>
+            </div>
+        </div>
+        <!-- Tenho que conseguir transformar a figura em template em Noticias e atualizar a funcao renderizarNoticias -->
+        <div id="ofertas_noticias" class="ofertas_especiais_2 container">
+            <!-- <div class="ofertas">
+                <img src="images/Rectangle13.png" alt="Ofertas">
+                <h3>Nome do Jogo</h3>
+                <p>Tempo para terminar</p>
+            </div> -->
+            <!-- <a href="#"><img src="./images/Promoções - Desktop.png" alt="Oferta Dragon Ball Z"></a>
+            <a href="#"><img src="./images/Promoções - Desktop.png" alt="Oferta Dragon Ball Z"></a>
+            <a href="#"><img src="./images/Promoções - Desktop.png" alt="Oferta Dragon Ball Z"></a>
+            <a href="#"><img src="./images/Promoções - Desktop.png" alt="Oferta Dragon Ball Z"></a>
+            <a href="#"><img src="./images/Promoções - Desktop.png" alt="Oferta Dragon Ball Z"></a> -->
+        </div>
+    </section>
+    <section class="banner">
+        <div class="banner_pago container"> 
+            <a href="#"><img src="./images/Banner.png" alt="Oferta Publicitaria"></a>
+        </div>
+    </section>
+    <footer>
+        <form action="">
+            <input id="campo-email" type="email" placeholder="Email" required>
+            <button onclick="enviarEmail()">Cadastrar</button>
+        </form>
+    </footer>
+
+    <script>
+        let menu = document.getElementById("menu");
+        function mostrarmenu() {
+            if(menu.style.display != "none") {
+                menu.style.display = "none"
+            } else {
+                menu.style.display = "flex"
+            }
+        }
+    </script>
+
+    <script src="js/script.js"></script>    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
