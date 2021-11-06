@@ -7,8 +7,13 @@ Revisão atual
 AulaRemota1 - versão 10.10.2021 - v0.1
 AulaRemota2 - versão 17.10.2021 - v0.2
 AulaRemota3 - versão 17.10.2021 - v0.3
+AulaRemota4 - versão 06.11.2021 - v0.4
 
 Notas
+
+v0.4
+Aplicação de Jquery no menu
+Criação de carousel  dos destaques(banner principal da página) em Jquery
 
 v0.3
 Alteração na seção ofertas para receber javascript dinâmico.
