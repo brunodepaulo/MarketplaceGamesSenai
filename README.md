@@ -1,25 +1,27 @@
-****Modelo de Marketplace de Venda Jogos - Curso Full Stack SENAI/SP****
+# ExemploAngular
 
-Template via Figma https://www.figma.com/file/CYK5uMQVoTb195KfleWmOj/Cloud-Games?node-id=18%3A417 e código em desenvolvimento via versões no Github.
-Somente farei o Upload do Main do versão final do Marketplace.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.0.2.
 
-Revisão atual
-AulaRemota1 - versão 10.10.2021 - v0.1
-AulaRemota2 - versão 17.10.2021 - v0.2
-AulaRemota3 - versão 17.10.2021 - v0.3
-AulaRemota4 - versão 06.11.2021 - v0.4
+## Development server
 
-Notas
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-v0.4
-Aplicação de Jquery no menu
-Criação de carousel  dos destaques(banner principal da página) em Jquery
+## Code scaffolding
 
-v0.3
-Alteração na seção ofertas para receber javascript dinâmico.
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-v0.2
-Alteração na responsividade somente do menu para telas de 1920px para 768px;
-Criação do menu 'Hamburguer' para telas abaixo de 768px.
+## Build
 
-Criador Bruno Conti de Paulo
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+
+## Running unit tests
+
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+
+## Running end-to-end tests
+
+Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+
+## Further help
+
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
