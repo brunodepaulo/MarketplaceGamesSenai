@@ -8,8 +8,13 @@ AulaRemota1 - versão 10.10.2021 - v0.1
 AulaRemota2 - versão 17.10.2021 - v0.2
 AulaRemota3 - versão 17.10.2021 - v0.3
 AulaRemota4 - versão 06.11.2021 - v0.4
+            - versão 25.11.2021 - vAlpha      
+https://github.com/brunodepaulo/MarketplaceGamesSenai/tree/SA3-ER4
 
 Notas
+
+vAlpha
+Pagina inicial criada, ainda faltam alguns ajustes
 
 v0.4
 Aplicação de Jquery no menu
