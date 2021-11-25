@@ -1,0 +1,498 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #071436;
+}
+
+header {
+    background-color:#0055a4;
+    height: 170px;
+}
+
+footer {
+    height: 410px;
+}
+
+.container_grid {
+    width: 1820px;
+    margin: 0 auto;
+}
+
+.posicionamento_header {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.posicionamento_titulo {
+    width: 1720px;
+    height: 170px;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.posicionamento_logo {
+    width: 341px;
+    height: 106px;
+}
+
+.posicionamento_menu {
+    width: 914px;
+    height: 55px;
+}
+
+.entrar_market {
+    width: 194px;
+    height: 78px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.entrar_market a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.menu {
+    width: 1333px;
+    display: flex;
+    justify-content: space-between;
+} 
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: 'Roboto', sans-serif; 
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+}
+
+.container_menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container_menu a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.container_menu img {
+    padding: 5px;
+}
+
+.logo {
+    display: flex;
+    width: 325px;
+}
+
+.barras {
+    width: 30px;
+    display: none;
+}
+
+.posicionamento_ofertas {
+    width: 1351px;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ver_mais1 {
+    display: flex;
+    width: 138px;
+    height: 42.58px;
+    left: 1506px;
+    top: 820px;
+    background: #0055A4;
+    border-radius: 10px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.ver_mais1 a {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.destaques {
+    /* background-image: url(../images/Destaques.png); */
+    height: 560px;
+    /* background-repeat: no-repeat; */
+    /* background-position: center; */
+    align-items: center;
+}
+
+.itens_destaques {
+    display: flex;
+    justify-content: center;
+}
+
+.destaques_lancamentos {
+    display: flex;
+    text-align: center;
+    margin-left: 150px;
+    flex-direction: column;
+    justify-content: end;
+    font-family: 'Roboto', sans-serif;
+}
+
+#carousel img {
+    display: none;
+}
+
+.destaques_ativo {
+    display: flex;
+}
+
+.texto_ofertas_especiais {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.texto_ofertas_especiais h2 {
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.texto_ofertas_especiais p {
+    color: white;
+    font-size: 20px;
+    font-weight: lighter;
+    margin-top: 0px;
+}
+
+.texto_ofertas_especiais a {
+    background-color: #0055A4;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.ofertas_especiais {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1575px;
+    height: 100%;
+    align-items: center; 
+}
+
+.ofertas_especiais_2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ofertas {
+    width: 238px;
+    height: 256px;
+    display: flex;
+    flex-direction: column;
+}
+
+.ofertas_fundo {
+    background-color: #0055A4;
+    display: flex;
+    width: 237px;
+    height: 122px;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: space-between;
+}
+
+.ofertas_tit1 {
+    width: 237px;
+    height: 17px;
+    color: white;
+    margin-left: 5px;
+}
+
+.ofertas_tit1 h3 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 19px;
+    font-size: 16px;
+    display: flex;
+}
+
+.ofertas_preco_guia {
+    display: flex;
+    justify-content: space-around;
+}
+
+.ofertas_preco_guia h2 {
+    width: 52px;
+    height: 25px;
+    background-color: #E05858;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;    
+}
+
+.ofertas_preco_guia h1 {
+    width: 168px;
+    height: 25px;
+    background: #C4C4C4;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.ofertas_imagem1 {
+    width: 237px;
+    height: 125px;
+    display: flex;
+}
+
+.ofertas_tipo {
+    display: flex;
+    width: 237px;
+    height: 26px;
+    margin-left: 5px;
+}
+
+.ofertas_tempo {
+    width: 237px;
+    height: 21px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    margin-left: 5px;
+}
+
+.banner_pago {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    max-width: 1400px;
+}
+
+.footer_alinhamento {
+    height: 65px;
+    color: white;
+    background-color: #0055A4;
+    margin-top: 50px;
+}
+
+.footer_alinhamento_interno {
+    width: 1720px;
+    height: 65px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+
+.footer_links {
+    width: 1220px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer_links a  {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+    color: white;
+}
+
+.footer_email {
+    width: 503px;
+    display: flex;
+    text-align: right;
+}
+
+.footer_inscreva h2 {
+    width: 324px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    display: flex;
+    text-align: center;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.footer_acompanhe {
+    height: 235px;
+    display: flex;
+    text-transform: uppercase;
+}
+
+.footer_acom_cont  {
+    width: 1407px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    display: flex;
+    color: #FFFFFF;
+    align-items: center;
+}
+
+.footer_acompanhenos {
+    width: 1400px;
+}
+
+.footer_acompanhenos_figuras{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 30px;    
+    margin-right: 100px;
+}
+
+.footer_footer {
+    height: 110px;
+    background-color: #0055A4;
+    display: flex;
+}
+
+.footer_footer_regua {
+    width: 1720px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.footer_footer_termo {
+    width: 980px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer_footer_termo a {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: white;
+}
+
+.footer_footer_dados {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    display: flex;
+    color: #FFFFFF;
+    align-items: baseline;
+}
+
+/* Preciso acertar o menu para gerar responsividade */
+
+@media screen and (max-width: 1920px) {
+    .container_grid {
+        width: 95%;
+    }
+
+    .container_menu img {
+        width: 100%;
+        padding: 5px;
+    }
+
+    .menu a {
+        font-size: 16px;
+    }
+
+    .logo {
+        width: 100%;
+    }
+
+    .entrar_market img {
+        width: 100%;
+        padding-left: 25px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .barras {
+        display: inline-block;
+    }
+    
+    .container_menu {
+        display: none;
+        flex-direction: column;
+        width: 250px;
+        height: 300px;
+        position: absolute;
+        top: 130px;
+        left: 0px;
+        align-items: flex-start;
+        background-color: #0055A4;
+        border-radius: 5px;
+        padding: 10px;
+    }
+    
+    .menu_ativo {
+        display: flex;
+    }
+
+    .logo {
+        align-items: center;
+    }
+
+    .posicionamento_header {
+        position: relative;
+    }
+}
